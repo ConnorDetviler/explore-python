@@ -95,7 +95,7 @@ classes act as constructors for objects
     print (p1.x)
     # returns 'Im a property'
 
-the __init__() function assigns values for name and age:
+the init function assigns values for name and age:
 methods can be defined within objects as well
 myfunc is being defined as a method within the p1 object
 
@@ -109,3 +109,36 @@ myfunc is being defined as a method within the p1 object
 
     p1 = Person("John", 36)
     p1.myfunc()
+    
+object properties can be changed later too:
+
+p1.name = 'Jerry'
+
+# Whiteboard challenge
+
+Prompt:
+Write a function that takes in two arguments, a list of strings and a string.
+The function should return the number of times the string is found in the list.
+
+    list_one = ['dog', 'cat', 'dog', 'dog', 'elephant', 'tiger', 'tiger', 'dog', 'elephant']
+
+    def string_occur(list, string):
+        # len gets the length of list, range creates a sequence of numbers from 0 to the full length of the list
+        # then i is each index in the iteration of that sequence
+        x = 0
+        for i in range(len(list)):
+            # each time the string is found in the loop, x is incremented by one
+            if string == list[i]:
+                x += 1
+        # when the loop is done, x contains the desired value
+        return x
+
+
+    print(string_occur(list_one, 'dog'))
+    # returns 4
+
+    print(string_occur(list_one, 'cat'))
+    # returns 1
+
+    print(string_occur(list_one, 'elephant'))
+    # returns 2
