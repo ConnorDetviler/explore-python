@@ -49,6 +49,15 @@ Upon reading the docs, I stumbled upon arrays and lists so I needed to figure ou
 
 Lists are like arrays in JS, they can store multiple data types
 
-Arrays in python can only store one data type
+Arrays in python can only store one data type. Python does not support arrays by default - module must be imported to declare array
 
 more differences between the two are described here: https://www.geeksforgeeks.org/difference-between-list-and-array-in-python/
+
+# Writing Functions
+
+    # defining a function
+    def add_two_numbers(num_one, num_two):
+        return num_one + num_two
+
+    # calling it inside of a print
+    print('adding two numbers together,', add_two_numbers(2, 5))
