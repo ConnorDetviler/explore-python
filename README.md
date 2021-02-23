@@ -1,4 +1,4 @@
-# first steps into python
+# First steps into python
 
 I followed these instructions for installing python and doing my first hello world program
 
@@ -16,6 +16,8 @@ created 'hello.py' with simple declaration and print statement:
 learned how to use the debugger
 
 installed the 'matplotlib' package and ran it inside a virtual environment
+
+# Doing my own practice
 
 Then, I moved on to practicing various built-in python functions to get a feel for the language:
 
