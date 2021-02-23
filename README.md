@@ -80,3 +80,26 @@ adding two numbers together, 7
 The first print returns 'Hello Connor!', since name is a truthy value
 
 Because an empty string is a falsy value, the second print returns 'You didn't tell me your name!'
+
+#Objects and classes
+
+The following examples were pulled from https://www.w3schools.com/python/python_classes.asp
+
+    #classes and objects
+    class MyClass:
+        x='Im a property'
+
+    p1 = MyClass()
+    print (p1.x)
+    # returns 'Im a property'
+
+    class Person:
+        def __init__ (self, name, age):
+            self.name = name
+            self.age = age
+
+        def myfunc(self):
+            print("hello, my name is " + self.name)
+
+    p1 = Person("John", 36)
+    p1.myfunc()
