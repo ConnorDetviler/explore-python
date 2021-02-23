@@ -114,7 +114,7 @@ object properties can be changed later too:
 
 p1.name = 'Jerry'
 
-# Whiteboard challenge
+# Code challenge
 
 Prompt:
 Write a function that takes in two arguments, a list of strings and a string.
