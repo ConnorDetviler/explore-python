@@ -1,6 +1,7 @@
 # first steps into python
 
 I followed these instructions for installing python and doing my first hello world program
+
 https://code.visualstudio.com/docs/python/python-tutorial
 
 installed with 'brew install python3' in terminal
