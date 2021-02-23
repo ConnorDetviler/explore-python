@@ -37,13 +37,13 @@ Then, I moved on to practicing various built-in python functions to get a feel f
     # returns absolute value (3 in this case)
     print(abs(-3))
 
-    numArray = [4, 6, -3, 2, 7, 23, 54, 2, -6]
+    numList = [4, 6, -3, 2, 7, 23, 54, 2, -6]
 
     # returns max value
-    print(max(numArray))
+    print(max(numList))
 
     # returns min value
-    print(min(numArray))
+    print(min(numList))
     
 Upon reading the docs, I stumbled upon arrays and lists so I needed to figure out the difference
 
@@ -61,3 +61,22 @@ more differences between the two are described here: https://www.geeksforgeeks.o
 
     # calling it inside of a print
     print('adding two numbers together,', add_two_numbers(2, 5))
+    
+returns:
+adding two numbers together, 7
+    
+## Function with conditional
+
+    def greet(name):
+        if name:
+            return 'Hello ' + name + '!'
+        else:
+            return "You didn't tell me your name!"
+
+  
+    print(greet('Connor'))
+    print(greet(''))
+    
+The first print returns 'Hello Connor!', since name is a truthy value
+
+Because an empty string is a falsy value, the second print returns 'You didn't tell me your name!'
