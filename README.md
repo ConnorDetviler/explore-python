@@ -81,9 +81,11 @@ The first print returns 'Hello Connor!', since name is a truthy value
 
 Because an empty string is a falsy value, the second print returns 'You didn't tell me your name!'
 
-#Objects and classes
+# Objects and classes
 
 The following examples were pulled from https://www.w3schools.com/python/python_classes.asp
+
+classes act as constructors for objects
 
     #classes and objects
     class MyClass:
@@ -92,6 +94,10 @@ The following examples were pulled from https://www.w3schools.com/python/python_
     p1 = MyClass()
     print (p1.x)
     # returns 'Im a property'
+
+the __init__() function assigns values for name and age:
+methods can be defined within objects as well
+myfunc is being defined as a method within the p1 object
 
     class Person:
         def __init__ (self, name, age):
