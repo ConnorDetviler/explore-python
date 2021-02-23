@@ -19,8 +19,8 @@ installed the 'matplotlib' package and ran it inside a virtual environment
 
 Then, I moved on to practicing various built-in python functions to get a feel for the language:
 
-msg = "hello world"
-print(msg)
+    msg = "hello world"
+    print(msg)
 
     # splits each group of characters divided by spaces into seperate strings
     # then stores each string in array
@@ -42,3 +42,11 @@ print(msg)
 
     # returns min value
     print(min(numArray))
+    
+Upon reading the docs, I stumbled upon arrays and lists so I needed to figure out the difference
+
+Lists are like arrays in JS, they can store multiple data types
+
+Arrays in python can only store one data type
+
+more differences between the two are described here: https://www.geeksforgeeks.org/difference-between-list-and-array-in-python/
